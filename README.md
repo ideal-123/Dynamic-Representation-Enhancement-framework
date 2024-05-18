@@ -30,8 +30,10 @@ Please refer to CDFSL-ATA [(https://github.com/Haoqing-Wang/CDFSL-ATA)](https://
     python train.py --model ResNet10_mask --method GNN --name GNN_ml_1s --n_shot 1 --rsc True --lifted_struct_loss True
     python train.py --model ResNet10_mask --method GNN --name GNN_ml_5s --n_shot 5 --rsc True --lifted_struct_loss True    
     
+<！--
 ### Fine-tuning
 ```
 python finetune_ml_partial.py --dataset cub --name GNN_ml_1s --finetune_epoch 30 --n_shot 1
 python finetune_ml_partial.py --dataset cub --name GNN_ml_5s --finetune_epoch 50 --n_shot 5    
 ```
+-->
