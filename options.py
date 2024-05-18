@@ -35,6 +35,7 @@ def parse_args():
     parser.add_argument('--val_episode', default=600, type=int, help='')
     # Finetune
     parser.add_argument('--finetune_epoch', default=30, type=int, help='')
+    parser.add_argument('--metric_ft', default=True, type=bool, help='')
     # cam
     parser.add_argument('--cam', default=False, type=bool, help='')
     parser.add_argument('--cam_layer', default=3, type=int, help='看该层输出的特征图')
