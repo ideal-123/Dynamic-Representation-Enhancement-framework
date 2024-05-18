@@ -8,7 +8,7 @@ The source code for the paper "learning general features to bridge the cross-dom
 ### Prerequisites
 * Python >= 3.5
 * Pytorch >= 1.2.0
-* You can use the **requirements.txt file** we provide to setup the environment via Anaconda.
+* You can use the **requirements.txt** file we provide to setup the environment via Anaconda.
 ```
 conda create --name py38 python=3.8
 conda install pytorch torchvision -c pytorch
